@@ -1,0 +1,582 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		9E2AAF121FE346F90082405B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E2AAF111FE346F90082405B /* AppDelegate.swift */; };
+		9E2AAF141FE346F90082405B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E2AAF131FE346F90082405B /* ViewController.swift */; };
+		9E2AAF171FE346F90082405B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9E2AAF151FE346F90082405B /* Main.storyboard */; };
+		9E2AAF1A1FE346F90082405B /* HeeraERP.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 9E2AAF181FE346F90082405B /* HeeraERP.xcdatamodeld */; };
+		9E2AAF1C1FE346F90082405B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9E2AAF1B1FE346F90082405B /* Assets.xcassets */; };
+		9E2AAF1F1FE346F90082405B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9E2AAF1D1FE346F90082405B /* LaunchScreen.storyboard */; };
+		9E2AAF2A1FE346F90082405B /* HeeraERPTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E2AAF291FE346F90082405B /* HeeraERPTests.swift */; };
+		9E2AAF351FE346FA0082405B /* HeeraERPUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E2AAF341FE346FA0082405B /* HeeraERPUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		9E2AAF261FE346F90082405B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9E2AAF061FE346F90082405B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9E2AAF0D1FE346F90082405B;
+			remoteInfo = HeeraERP;
+		};
+		9E2AAF311FE346FA0082405B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9E2AAF061FE346F90082405B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9E2AAF0D1FE346F90082405B;
+			remoteInfo = HeeraERP;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		9E2AAF0E1FE346F90082405B /* HeeraERP.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HeeraERP.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		9E2AAF111FE346F90082405B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		9E2AAF131FE346F90082405B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		9E2AAF161FE346F90082405B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		9E2AAF191FE346F90082405B /* HeeraERP.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = HeeraERP.xcdatamodel; sourceTree = "<group>"; };
+		9E2AAF1B1FE346F90082405B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		9E2AAF1E1FE346F90082405B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		9E2AAF201FE346F90082405B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9E2AAF251FE346F90082405B /* HeeraERPTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HeeraERPTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		9E2AAF291FE346F90082405B /* HeeraERPTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeeraERPTests.swift; sourceTree = "<group>"; };
+		9E2AAF2B1FE346F90082405B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9E2AAF301FE346FA0082405B /* HeeraERPUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HeeraERPUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		9E2AAF341FE346FA0082405B /* HeeraERPUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeeraERPUITests.swift; sourceTree = "<group>"; };
+		9E2AAF361FE346FA0082405B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		9E2AAF0B1FE346F90082405B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9E2AAF221FE346F90082405B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9E2AAF2D1FE346FA0082405B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		9E2AAF051FE346F90082405B = {
+			isa = PBXGroup;
+			children = (
+				9E2AAF101FE346F90082405B /* HeeraERP */,
+				9E2AAF281FE346F90082405B /* HeeraERPTests */,
+				9E2AAF331FE346FA0082405B /* HeeraERPUITests */,
+				9E2AAF0F1FE346F90082405B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		9E2AAF0F1FE346F90082405B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9E2AAF0E1FE346F90082405B /* HeeraERP.app */,
+				9E2AAF251FE346F90082405B /* HeeraERPTests.xctest */,
+				9E2AAF301FE346FA0082405B /* HeeraERPUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9E2AAF101FE346F90082405B /* HeeraERP */ = {
+			isa = PBXGroup;
+			children = (
+				9E2AAF111FE346F90082405B /* AppDelegate.swift */,
+				9E2AAF131FE346F90082405B /* ViewController.swift */,
+				9E2AAF151FE346F90082405B /* Main.storyboard */,
+				9E2AAF1B1FE346F90082405B /* Assets.xcassets */,
+				9E2AAF1D1FE346F90082405B /* LaunchScreen.storyboard */,
+				9E2AAF201FE346F90082405B /* Info.plist */,
+				9E2AAF181FE346F90082405B /* HeeraERP.xcdatamodeld */,
+			);
+			path = HeeraERP;
+			sourceTree = "<group>";
+		};
+		9E2AAF281FE346F90082405B /* HeeraERPTests */ = {
+			isa = PBXGroup;
+			children = (
+				9E2AAF291FE346F90082405B /* HeeraERPTests.swift */,
+				9E2AAF2B1FE346F90082405B /* Info.plist */,
+			);
+			path = HeeraERPTests;
+			sourceTree = "<group>";
+		};
+		9E2AAF331FE346FA0082405B /* HeeraERPUITests */ = {
+			isa = PBXGroup;
+			children = (
+				9E2AAF341FE346FA0082405B /* HeeraERPUITests.swift */,
+				9E2AAF361FE346FA0082405B /* Info.plist */,
+			);
+			path = HeeraERPUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		9E2AAF0D1FE346F90082405B /* HeeraERP */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9E2AAF391FE346FA0082405B /* Build configuration list for PBXNativeTarget "HeeraERP" */;
+			buildPhases = (
+				9E2AAF0A1FE346F90082405B /* Sources */,
+				9E2AAF0B1FE346F90082405B /* Frameworks */,
+				9E2AAF0C1FE346F90082405B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = HeeraERP;
+			productName = HeeraERP;
+			productReference = 9E2AAF0E1FE346F90082405B /* HeeraERP.app */;
+			productType = "com.apple.product-type.application";
+		};
+		9E2AAF241FE346F90082405B /* HeeraERPTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9E2AAF3C1FE346FA0082405B /* Build configuration list for PBXNativeTarget "HeeraERPTests" */;
+			buildPhases = (
+				9E2AAF211FE346F90082405B /* Sources */,
+				9E2AAF221FE346F90082405B /* Frameworks */,
+				9E2AAF231FE346F90082405B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9E2AAF271FE346F90082405B /* PBXTargetDependency */,
+			);
+			name = HeeraERPTests;
+			productName = HeeraERPTests;
+			productReference = 9E2AAF251FE346F90082405B /* HeeraERPTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		9E2AAF2F1FE346FA0082405B /* HeeraERPUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9E2AAF3F1FE346FA0082405B /* Build configuration list for PBXNativeTarget "HeeraERPUITests" */;
+			buildPhases = (
+				9E2AAF2C1FE346FA0082405B /* Sources */,
+				9E2AAF2D1FE346FA0082405B /* Frameworks */,
+				9E2AAF2E1FE346FA0082405B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9E2AAF321FE346FA0082405B /* PBXTargetDependency */,
+			);
+			name = HeeraERPUITests;
+			productName = HeeraERPUITests;
+			productReference = 9E2AAF301FE346FA0082405B /* HeeraERPUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		9E2AAF061FE346F90082405B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0920;
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = Suvan;
+				TargetAttributes = {
+					9E2AAF0D1FE346F90082405B = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+					9E2AAF241FE346F90082405B = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 9E2AAF0D1FE346F90082405B;
+					};
+					9E2AAF2F1FE346FA0082405B = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 9E2AAF0D1FE346F90082405B;
+					};
+				};
+			};
+			buildConfigurationList = 9E2AAF091FE346F90082405B /* Build configuration list for PBXProject "HeeraERP" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 9E2AAF051FE346F90082405B;
+			productRefGroup = 9E2AAF0F1FE346F90082405B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				9E2AAF0D1FE346F90082405B /* HeeraERP */,
+				9E2AAF241FE346F90082405B /* HeeraERPTests */,
+				9E2AAF2F1FE346FA0082405B /* HeeraERPUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		9E2AAF0C1FE346F90082405B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9E2AAF1F1FE346F90082405B /* LaunchScreen.storyboard in Resources */,
+				9E2AAF1C1FE346F90082405B /* Assets.xcassets in Resources */,
+				9E2AAF171FE346F90082405B /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9E2AAF231FE346F90082405B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9E2AAF2E1FE346FA0082405B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		9E2AAF0A1FE346F90082405B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9E2AAF141FE346F90082405B /* ViewController.swift in Sources */,
+				9E2AAF1A1FE346F90082405B /* HeeraERP.xcdatamodeld in Sources */,
+				9E2AAF121FE346F90082405B /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9E2AAF211FE346F90082405B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9E2AAF2A1FE346F90082405B /* HeeraERPTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9E2AAF2C1FE346FA0082405B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9E2AAF351FE346FA0082405B /* HeeraERPUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		9E2AAF271FE346F90082405B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9E2AAF0D1FE346F90082405B /* HeeraERP */;
+			targetProxy = 9E2AAF261FE346F90082405B /* PBXContainerItemProxy */;
+		};
+		9E2AAF321FE346FA0082405B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9E2AAF0D1FE346F90082405B /* HeeraERP */;
+			targetProxy = 9E2AAF311FE346FA0082405B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		9E2AAF151FE346F90082405B /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9E2AAF161FE346F90082405B /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		9E2AAF1D1FE346F90082405B /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9E2AAF1E1FE346F90082405B /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		9E2AAF371FE346FA0082405B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		9E2AAF381FE346FA0082405B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		9E2AAF3A1FE346FA0082405B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 688X9LF3Y9;
+				INFOPLIST_FILE = HeeraERP/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = HeeraERP.HeeraERP;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		9E2AAF3B1FE346FA0082405B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 688X9LF3Y9;
+				INFOPLIST_FILE = HeeraERP/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = HeeraERP.HeeraERP;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		9E2AAF3D1FE346FA0082405B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 688X9LF3Y9;
+				INFOPLIST_FILE = HeeraERPTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = HeeraERP.HeeraERPTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HeeraERP.app/HeeraERP";
+			};
+			name = Debug;
+		};
+		9E2AAF3E1FE346FA0082405B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 688X9LF3Y9;
+				INFOPLIST_FILE = HeeraERPTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = HeeraERP.HeeraERPTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HeeraERP.app/HeeraERP";
+			};
+			name = Release;
+		};
+		9E2AAF401FE346FA0082405B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 688X9LF3Y9;
+				INFOPLIST_FILE = HeeraERPUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = HeeraERP.HeeraERPUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = HeeraERP;
+			};
+			name = Debug;
+		};
+		9E2AAF411FE346FA0082405B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 688X9LF3Y9;
+				INFOPLIST_FILE = HeeraERPUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = HeeraERP.HeeraERPUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = HeeraERP;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		9E2AAF091FE346F90082405B /* Build configuration list for PBXProject "HeeraERP" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9E2AAF371FE346FA0082405B /* Debug */,
+				9E2AAF381FE346FA0082405B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9E2AAF391FE346FA0082405B /* Build configuration list for PBXNativeTarget "HeeraERP" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9E2AAF3A1FE346FA0082405B /* Debug */,
+				9E2AAF3B1FE346FA0082405B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9E2AAF3C1FE346FA0082405B /* Build configuration list for PBXNativeTarget "HeeraERPTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9E2AAF3D1FE346FA0082405B /* Debug */,
+				9E2AAF3E1FE346FA0082405B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9E2AAF3F1FE346FA0082405B /* Build configuration list for PBXNativeTarget "HeeraERPUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9E2AAF401FE346FA0082405B /* Debug */,
+				9E2AAF411FE346FA0082405B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		9E2AAF181FE346F90082405B /* HeeraERP.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				9E2AAF191FE346F90082405B /* HeeraERP.xcdatamodel */,
+			);
+			currentVersion = 9E2AAF191FE346F90082405B /* HeeraERP.xcdatamodel */;
+			path = HeeraERP.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 9E2AAF061FE346F90082405B /* Project object */;
+}
