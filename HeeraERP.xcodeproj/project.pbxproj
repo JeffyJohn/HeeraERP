@@ -7,6 +7,35 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		9E00F8221FF6C6840069ECE2 /* MemberProfileMainInfoCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E00F8201FF6C6840069ECE2 /* MemberProfileMainInfoCell.swift */; };
+		9E00F8231FF6C6840069ECE2 /* MemberProfileMainInfoCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9E00F8211FF6C6840069ECE2 /* MemberProfileMainInfoCell.xib */; };
+		9E00F82E1FF6DA5C0069ECE2 /* MemberProfileIDproofsCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E00F82C1FF6DA5C0069ECE2 /* MemberProfileIDproofsCell.swift */; };
+		9E00F82F1FF6DA5C0069ECE2 /* MemberProfileIDproofsCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9E00F82D1FF6DA5C0069ECE2 /* MemberProfileIDproofsCell.xib */; };
+		9E029CA3203C195E003D2975 /* OISidemenuController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E029CA2203C195E003D2975 /* OISidemenuController.swift */; };
+		9E029CA5203C198B003D2975 /* OIDashboardController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E029CA4203C198B003D2975 /* OIDashboardController.swift */; };
+		9E029CA8203C3701003D2975 /* OIAddMemberController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E029CA7203C3701003D2975 /* OIAddMemberController.swift */; };
+		9E029CAC203C378F003D2975 /* OIMembersController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E029CAB203C378F003D2975 /* OIMembersController.swift */; };
+		9E029CAE203C37BA003D2975 /* OIMembersAccountController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E029CAD203C37BA003D2975 /* OIMembersAccountController.swift */; };
+		9E029CB1203C37FE003D2975 /* OIRedeemDetailsController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E029CB0203C37FE003D2975 /* OIRedeemDetailsController.swift */; };
+		9E04BA18200002BA007E0D9B /* MemberAccountWithdrawnPaymentController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E04BA17200002BA007E0D9B /* MemberAccountWithdrawnPaymentController.swift */; };
+		9E04BA25200036DE007E0D9B /* TwoLabelTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E04BA23200036DE007E0D9B /* TwoLabelTableViewCell.swift */; };
+		9E04BA26200036DE007E0D9B /* TwoLabelTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9E04BA24200036DE007E0D9B /* TwoLabelTableViewCell.xib */; };
+		9E04BA28200037DC007E0D9B /* MemberviewWithdrawnTcnController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E04BA27200037DC007E0D9B /* MemberviewWithdrawnTcnController.swift */; };
+		9E04BA2B20005722007E0D9B /* ImageLabelTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E04BA2920005722007E0D9B /* ImageLabelTableViewCell.swift */; };
+		9E04BA2C20005722007E0D9B /* ImageLabelTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9E04BA2A20005722007E0D9B /* ImageLabelTableViewCell.xib */; };
+		9E04BA2F20005D18007E0D9B /* SingleButtonCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E04BA2D20005D18007E0D9B /* SingleButtonCell.swift */; };
+		9E04BA3020005D18007E0D9B /* SingleButtonCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9E04BA2E20005D18007E0D9B /* SingleButtonCell.xib */; };
+		9E04BA332000624F007E0D9B /* SingleLabelCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E04BA312000624E007E0D9B /* SingleLabelCell.swift */; };
+		9E04BA342000624F007E0D9B /* SingleLabelCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9E04BA322000624F007E0D9B /* SingleLabelCell.xib */; };
+		9E13777D1FEAEB9D002B6E8A /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E13777C1FEAEB9D002B6E8A /* SecondViewController.swift */; };
+		9E1377811FEB3204002B6E8A /* MemberHeeraPaymentController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E1377801FEB3204002B6E8A /* MemberHeeraPaymentController.swift */; };
+		9E1377831FEB3D10002B6E8A /* MemberBenefitRemittanceController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E1377821FEB3D10002B6E8A /* MemberBenefitRemittanceController.swift */; };
+		9E14A4851FE896F50019B9C5 /* DropDownMenuController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E14A4841FE896F50019B9C5 /* DropDownMenuController.swift */; };
+		9E1DEA92202469F700C74534 /* ForgotPassword_OTPChecking.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E1DEA91202469F600C74534 /* ForgotPassword_OTPChecking.swift */; };
+		9E1DEA942024739100C74534 /* ForgotPasswordReset.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E1DEA932024739100C74534 /* ForgotPasswordReset.swift */; };
+		9E29F43F1FED8AB2000B1BDC /* Barcode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E29F43E1FED8AB2000B1BDC /* Barcode.swift */; };
+		9E29F4411FED8BF0000B1BDC /* CoreImage.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9E29F4401FED8BF0000B1BDC /* CoreImage.framework */; };
+		9E29F4431FED91AC000B1BDC /* MemberVoucherController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E29F4421FED91AC000B1BDC /* MemberVoucherController.swift */; };
 		9E2AAF121FE346F90082405B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E2AAF111FE346F90082405B /* AppDelegate.swift */; };
 		9E2AAF141FE346F90082405B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E2AAF131FE346F90082405B /* ViewController.swift */; };
 		9E2AAF171FE346F90082405B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9E2AAF151FE346F90082405B /* Main.storyboard */; };
@@ -15,6 +44,45 @@
 		9E2AAF1F1FE346F90082405B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9E2AAF1D1FE346F90082405B /* LaunchScreen.storyboard */; };
 		9E2AAF2A1FE346F90082405B /* HeeraERPTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E2AAF291FE346F90082405B /* HeeraERPTests.swift */; };
 		9E2AAF351FE346FA0082405B /* HeeraERPUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E2AAF341FE346FA0082405B /* HeeraERPUITests.swift */; };
+		9E362515201EDAB40027058C /* MemberNomineeDetailsCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E362513201EDAB40027058C /* MemberNomineeDetailsCell.swift */; };
+		9E362516201EDAB40027058C /* MemberNomineeDetailsCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9E362514201EDAB40027058C /* MemberNomineeDetailsCell.xib */; };
+		9E5DC00F1FFAC17C006328C0 /* Photos.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9E5DC00E1FFAC17B006328C0 /* Photos.framework */; };
+		9E6BFD082012FA4500262DB2 /* GlobalValues.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E6BFD072012FA4500262DB2 /* GlobalValues.swift */; };
+		9E6BFD0A2013124300262DB2 /* ActivityIndicator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E6BFD092013124300262DB2 /* ActivityIndicator.swift */; };
+		9ED8E3361FEC9202006CEF8B /* MemberRedeemCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9ED8E3341FEC9202006CEF8B /* MemberRedeemCell.swift */; };
+		9ED8E3371FEC9202006CEF8B /* MemberRedeemCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9ED8E3351FEC9202006CEF8B /* MemberRedeemCell.xib */; };
+		9ED8E33A1FEC994C006CEF8B /* MemberMyAccountCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9ED8E3381FEC994C006CEF8B /* MemberMyAccountCell.swift */; };
+		9ED8E33B1FEC994C006CEF8B /* MemberMyAccountCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9ED8E3391FEC994C006CEF8B /* MemberMyAccountCell.xib */; };
+		9EF4E4201FFF0CE0006076E3 /* MemberAccountPaymentDetailsController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EF4E41F1FFF0CE0006076E3 /* MemberAccountPaymentDetailsController.swift */; };
+		9EF6DFC31FFC1DB30017B770 /* CheckAccess.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EF6DFC21FFC1DB30017B770 /* CheckAccess.swift */; };
+		9EF6DFC51FFC20AA0017B770 /* BasicProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EF6DFC41FFC20AA0017B770 /* BasicProperties.swift */; };
+		9EF78EB01FE43EFC0095E471 /* SWRevealViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9EF78EAF1FE43EFC0095E471 /* SWRevealViewController.m */; };
+		9EF78EB21FE440730095E471 /* MemberDashboardController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EF78EB11FE440730095E471 /* MemberDashboardController.swift */; };
+		9EF78EB41FE4408F0095E471 /* MemberSideMenuController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EF78EB31FE4408F0095E471 /* MemberSideMenuController.swift */; };
+		9EF94C602022D575002CF7E9 /* TwoImagesViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EF94C5E2022D575002CF7E9 /* TwoImagesViewCell.swift */; };
+		9EF94C612022D575002CF7E9 /* TwoImagesViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9EF94C5F2022D575002CF7E9 /* TwoImagesViewCell.xib */; };
+		9EF94C6320232A1F002CF7E9 /* ForgotPassword.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EF94C6220232A1F002CF7E9 /* ForgotPassword.swift */; };
+		9EFCE9111FE46B7F0058994C /* MemberMyProfileController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EFCE9101FE46B7F0058994C /* MemberMyProfileController.swift */; };
+		9EFCE9151FE481F30058994C /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 9EFCE9141FE481F20058994C /* GoogleService-Info.plist */; };
+		9EFCE9191FE496D90058994C /* MemberCollectionCellDashboard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EFCE9181FE496D90058994C /* MemberCollectionCellDashboard.swift */; };
+		9EFCE91B1FE4ACEE0058994C /* Member MyAccountController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EFCE91A1FE4ACEE0058994C /* Member MyAccountController.swift */; };
+		9EFCE91D1FE4AD280058994C /* MemberTcnRequestController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EFCE91C1FE4AD280058994C /* MemberTcnRequestController.swift */; };
+		9EFCE91F1FE4AD5A0058994C /* MemberTcnApplicationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EFCE91E1FE4AD5A0058994C /* MemberTcnApplicationController.swift */; };
+		9EFCE9211FE4AD840058994C /* MemberRedeemDetailsController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EFCE9201FE4AD840058994C /* MemberRedeemDetailsController.swift */; };
+		9EFCE9231FE4ADB30058994C /* MemberChangePasswordController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EFCE9221FE4ADB30058994C /* MemberChangePasswordController.swift */; };
+		9EFCE9251FE4ADD80058994C /* MemberContactAdminController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EFCE9241FE4ADD80058994C /* MemberContactAdminController.swift */; };
+		9EFD1E971FEC4C0400F4F84B /* MemberNomineeDetailsController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EFD1E961FEC4C0400F4F84B /* MemberNomineeDetailsController.swift */; };
+		9EFD1E991FEC6E3500F4F84B /* MemberSupportingDocumentController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EFD1E981FEC6E3500F4F84B /* MemberSupportingDocumentController.swift */; };
+		9EFE5D871FFD933700072A8D /* FZAccordionTableView.m in Sources */ = {isa = PBXBuildFile; fileRef = 9EFE5D851FFD933700072A8D /* FZAccordionTableView.m */; };
+		9EFE5D8A1FFD9AF500072A8D /* MemberPendingApprovalsCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EFE5D881FFD9AF500072A8D /* MemberPendingApprovalsCell.swift */; };
+		9EFE5D8B1FFD9AF500072A8D /* MemberPendingApprovalsCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9EFE5D891FFD9AF500072A8D /* MemberPendingApprovalsCell.xib */; };
+		9EFE5D8E1FFD9B1B00072A8D /* MemberActiveTcnCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EFE5D8C1FFD9B1B00072A8D /* MemberActiveTcnCell.swift */; };
+		9EFE5D8F1FFD9B1B00072A8D /* MemberActiveTcnCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9EFE5D8D1FFD9B1B00072A8D /* MemberActiveTcnCell.xib */; };
+		9EFE5D921FFD9B3800072A8D /* MemberWithdrawnTcnCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EFE5D901FFD9B3800072A8D /* MemberWithdrawnTcnCell.swift */; };
+		9EFE5D931FFD9B3800072A8D /* MemberWithdrawnTcnCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9EFE5D911FFD9B3800072A8D /* MemberWithdrawnTcnCell.xib */; };
+		C87959B0406E615A71336D37 /* Pods_HeeraERPUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0D554C5D49F0AC2273DDE502 /* Pods_HeeraERPUITests.framework */; };
+		CAE06FE52B6BA5A2ADA9D6EA /* Pods_HeeraERPTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9F15A5BBF79E1F0BCFDDBDB6 /* Pods_HeeraERPTests.framework */; };
+		D6EC24858D067E4A3A1C0B5E /* Pods_HeeraERP.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 782E82C65ED12BF4930497AF /* Pods_HeeraERP.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +103,39 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0D554C5D49F0AC2273DDE502 /* Pods_HeeraERPUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HeeraERPUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		1E2857CE7A98F1118FF98A45 /* Pods-HeeraERPTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HeeraERPTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-HeeraERPTests/Pods-HeeraERPTests.debug.xcconfig"; sourceTree = "<group>"; };
+		782E82C65ED12BF4930497AF /* Pods_HeeraERP.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HeeraERP.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		8A053C6529445945C070F6A2 /* Pods-HeeraERP.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HeeraERP.release.xcconfig"; path = "Pods/Target Support Files/Pods-HeeraERP/Pods-HeeraERP.release.xcconfig"; sourceTree = "<group>"; };
+		9E00F8201FF6C6840069ECE2 /* MemberProfileMainInfoCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MemberProfileMainInfoCell.swift; sourceTree = "<group>"; };
+		9E00F8211FF6C6840069ECE2 /* MemberProfileMainInfoCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MemberProfileMainInfoCell.xib; sourceTree = "<group>"; };
+		9E00F82C1FF6DA5C0069ECE2 /* MemberProfileIDproofsCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MemberProfileIDproofsCell.swift; sourceTree = "<group>"; };
+		9E00F82D1FF6DA5C0069ECE2 /* MemberProfileIDproofsCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MemberProfileIDproofsCell.xib; sourceTree = "<group>"; };
+		9E029CA2203C195E003D2975 /* OISidemenuController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OISidemenuController.swift; sourceTree = "<group>"; };
+		9E029CA4203C198B003D2975 /* OIDashboardController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OIDashboardController.swift; sourceTree = "<group>"; };
+		9E029CA7203C3701003D2975 /* OIAddMemberController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OIAddMemberController.swift; sourceTree = "<group>"; };
+		9E029CAB203C378F003D2975 /* OIMembersController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OIMembersController.swift; sourceTree = "<group>"; };
+		9E029CAD203C37BA003D2975 /* OIMembersAccountController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OIMembersAccountController.swift; sourceTree = "<group>"; };
+		9E029CB0203C37FE003D2975 /* OIRedeemDetailsController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OIRedeemDetailsController.swift; sourceTree = "<group>"; };
+		9E04BA17200002BA007E0D9B /* MemberAccountWithdrawnPaymentController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MemberAccountWithdrawnPaymentController.swift; sourceTree = "<group>"; };
+		9E04BA23200036DE007E0D9B /* TwoLabelTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TwoLabelTableViewCell.swift; sourceTree = "<group>"; };
+		9E04BA24200036DE007E0D9B /* TwoLabelTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TwoLabelTableViewCell.xib; sourceTree = "<group>"; };
+		9E04BA27200037DC007E0D9B /* MemberviewWithdrawnTcnController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MemberviewWithdrawnTcnController.swift; sourceTree = "<group>"; };
+		9E04BA2920005722007E0D9B /* ImageLabelTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageLabelTableViewCell.swift; sourceTree = "<group>"; };
+		9E04BA2A20005722007E0D9B /* ImageLabelTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ImageLabelTableViewCell.xib; sourceTree = "<group>"; };
+		9E04BA2D20005D18007E0D9B /* SingleButtonCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SingleButtonCell.swift; sourceTree = "<group>"; };
+		9E04BA2E20005D18007E0D9B /* SingleButtonCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SingleButtonCell.xib; sourceTree = "<group>"; };
+		9E04BA312000624E007E0D9B /* SingleLabelCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SingleLabelCell.swift; sourceTree = "<group>"; };
+		9E04BA322000624F007E0D9B /* SingleLabelCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SingleLabelCell.xib; sourceTree = "<group>"; };
+		9E13777C1FEAEB9D002B6E8A /* SecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
+		9E1377801FEB3204002B6E8A /* MemberHeeraPaymentController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MemberHeeraPaymentController.swift; sourceTree = "<group>"; };
+		9E1377821FEB3D10002B6E8A /* MemberBenefitRemittanceController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MemberBenefitRemittanceController.swift; sourceTree = "<group>"; };
+		9E14A4841FE896F50019B9C5 /* DropDownMenuController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DropDownMenuController.swift; sourceTree = "<group>"; };
+		9E1DEA91202469F600C74534 /* ForgotPassword_OTPChecking.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ForgotPassword_OTPChecking.swift; sourceTree = "<group>"; };
+		9E1DEA932024739100C74534 /* ForgotPasswordReset.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ForgotPasswordReset.swift; sourceTree = "<group>"; };
+		9E29F43E1FED8AB2000B1BDC /* Barcode.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Barcode.swift; sourceTree = "<group>"; };
+		9E29F4401FED8BF0000B1BDC /* CoreImage.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreImage.framework; path = System/Library/Frameworks/CoreImage.framework; sourceTree = SDKROOT; };
+		9E29F4421FED91AC000B1BDC /* MemberVoucherController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MemberVoucherController.swift; sourceTree = "<group>"; };
 		9E2AAF0E1FE346F90082405B /* HeeraERP.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HeeraERP.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9E2AAF111FE346F90082405B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		9E2AAF131FE346F90082405B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -49,6 +150,50 @@
 		9E2AAF301FE346FA0082405B /* HeeraERPUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HeeraERPUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		9E2AAF341FE346FA0082405B /* HeeraERPUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeeraERPUITests.swift; sourceTree = "<group>"; };
 		9E2AAF361FE346FA0082405B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9E362513201EDAB40027058C /* MemberNomineeDetailsCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MemberNomineeDetailsCell.swift; sourceTree = "<group>"; };
+		9E362514201EDAB40027058C /* MemberNomineeDetailsCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MemberNomineeDetailsCell.xib; sourceTree = "<group>"; };
+		9E5DC00E1FFAC17B006328C0 /* Photos.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Photos.framework; path = System/Library/Frameworks/Photos.framework; sourceTree = SDKROOT; };
+		9E6BFD072012FA4500262DB2 /* GlobalValues.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GlobalValues.swift; sourceTree = "<group>"; };
+		9E6BFD092013124300262DB2 /* ActivityIndicator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActivityIndicator.swift; sourceTree = "<group>"; };
+		9ED8E3341FEC9202006CEF8B /* MemberRedeemCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MemberRedeemCell.swift; sourceTree = "<group>"; };
+		9ED8E3351FEC9202006CEF8B /* MemberRedeemCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MemberRedeemCell.xib; sourceTree = "<group>"; };
+		9ED8E3381FEC994C006CEF8B /* MemberMyAccountCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MemberMyAccountCell.swift; sourceTree = "<group>"; };
+		9ED8E3391FEC994C006CEF8B /* MemberMyAccountCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MemberMyAccountCell.xib; sourceTree = "<group>"; };
+		9EF4E41F1FFF0CE0006076E3 /* MemberAccountPaymentDetailsController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MemberAccountPaymentDetailsController.swift; sourceTree = "<group>"; };
+		9EF6DFC21FFC1DB30017B770 /* CheckAccess.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CheckAccess.swift; sourceTree = "<group>"; };
+		9EF6DFC41FFC20AA0017B770 /* BasicProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BasicProperties.swift; sourceTree = "<group>"; };
+		9EF78EAD1FE43EFB0095E471 /* HeeraERP-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "HeeraERP-Bridging-Header.h"; sourceTree = "<group>"; };
+		9EF78EAE1FE43EFC0095E471 /* SWRevealViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SWRevealViewController.h; path = "HeeraERP/library files/SWRevealViewController.h"; sourceTree = SOURCE_ROOT; };
+		9EF78EAF1FE43EFC0095E471 /* SWRevealViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SWRevealViewController.m; path = "HeeraERP/library files/SWRevealViewController.m"; sourceTree = SOURCE_ROOT; };
+		9EF78EB11FE440730095E471 /* MemberDashboardController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MemberDashboardController.swift; sourceTree = "<group>"; };
+		9EF78EB31FE4408F0095E471 /* MemberSideMenuController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MemberSideMenuController.swift; sourceTree = "<group>"; };
+		9EF94C5E2022D575002CF7E9 /* TwoImagesViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TwoImagesViewCell.swift; sourceTree = "<group>"; };
+		9EF94C5F2022D575002CF7E9 /* TwoImagesViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TwoImagesViewCell.xib; sourceTree = "<group>"; };
+		9EF94C6220232A1F002CF7E9 /* ForgotPassword.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ForgotPassword.swift; sourceTree = "<group>"; };
+		9EFCE9101FE46B7F0058994C /* MemberMyProfileController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MemberMyProfileController.swift; sourceTree = "<group>"; };
+		9EFCE9141FE481F20058994C /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		9EFCE9181FE496D90058994C /* MemberCollectionCellDashboard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MemberCollectionCellDashboard.swift; sourceTree = "<group>"; };
+		9EFCE91A1FE4ACEE0058994C /* Member MyAccountController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Member MyAccountController.swift"; sourceTree = "<group>"; };
+		9EFCE91C1FE4AD280058994C /* MemberTcnRequestController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MemberTcnRequestController.swift; sourceTree = "<group>"; };
+		9EFCE91E1FE4AD5A0058994C /* MemberTcnApplicationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MemberTcnApplicationController.swift; sourceTree = "<group>"; };
+		9EFCE9201FE4AD840058994C /* MemberRedeemDetailsController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MemberRedeemDetailsController.swift; sourceTree = "<group>"; };
+		9EFCE9221FE4ADB30058994C /* MemberChangePasswordController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MemberChangePasswordController.swift; sourceTree = "<group>"; };
+		9EFCE9241FE4ADD80058994C /* MemberContactAdminController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MemberContactAdminController.swift; sourceTree = "<group>"; };
+		9EFD1E961FEC4C0400F4F84B /* MemberNomineeDetailsController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MemberNomineeDetailsController.swift; sourceTree = "<group>"; };
+		9EFD1E981FEC6E3500F4F84B /* MemberSupportingDocumentController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MemberSupportingDocumentController.swift; sourceTree = "<group>"; };
+		9EFE5D851FFD933700072A8D /* FZAccordionTableView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FZAccordionTableView.m; sourceTree = "<group>"; };
+		9EFE5D861FFD933700072A8D /* FZAccordionTableView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FZAccordionTableView.h; sourceTree = "<group>"; };
+		9EFE5D881FFD9AF500072A8D /* MemberPendingApprovalsCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MemberPendingApprovalsCell.swift; sourceTree = "<group>"; };
+		9EFE5D891FFD9AF500072A8D /* MemberPendingApprovalsCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MemberPendingApprovalsCell.xib; sourceTree = "<group>"; };
+		9EFE5D8C1FFD9B1B00072A8D /* MemberActiveTcnCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MemberActiveTcnCell.swift; sourceTree = "<group>"; };
+		9EFE5D8D1FFD9B1B00072A8D /* MemberActiveTcnCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MemberActiveTcnCell.xib; sourceTree = "<group>"; };
+		9EFE5D901FFD9B3800072A8D /* MemberWithdrawnTcnCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MemberWithdrawnTcnCell.swift; sourceTree = "<group>"; };
+		9EFE5D911FFD9B3800072A8D /* MemberWithdrawnTcnCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MemberWithdrawnTcnCell.xib; sourceTree = "<group>"; };
+		9F15A5BBF79E1F0BCFDDBDB6 /* Pods_HeeraERPTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HeeraERPTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B06FB5983C4D6902160FC0DF /* Pods-HeeraERPUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HeeraERPUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-HeeraERPUITests/Pods-HeeraERPUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		B4F0F911FF0191DD0EC658CF /* Pods-HeeraERPUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HeeraERPUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-HeeraERPUITests/Pods-HeeraERPUITests.release.xcconfig"; sourceTree = "<group>"; };
+		D0229111CE39EEA31E1E2636 /* Pods-HeeraERP.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HeeraERP.debug.xcconfig"; path = "Pods/Target Support Files/Pods-HeeraERP/Pods-HeeraERP.debug.xcconfig"; sourceTree = "<group>"; };
+		E82C9BE9D555A6DC2BC62FCD /* Pods-HeeraERPTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HeeraERPTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-HeeraERPTests/Pods-HeeraERPTests.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +201,9 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9E5DC00F1FFAC17C006328C0 /* Photos.framework in Frameworks */,
+				9E29F4411FED8BF0000B1BDC /* CoreImage.framework in Frameworks */,
+				D6EC24858D067E4A3A1C0B5E /* Pods_HeeraERP.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -63,6 +211,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CAE06FE52B6BA5A2ADA9D6EA /* Pods_HeeraERPTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -70,12 +219,173 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C87959B0406E615A71336D37 /* Pods_HeeraERPUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		9E00F8301FF6DE390069ECE2 /* Dashboard */ = {
+			isa = PBXGroup;
+			children = (
+				9EF78EB11FE440730095E471 /* MemberDashboardController.swift */,
+			);
+			path = Dashboard;
+			sourceTree = "<group>";
+		};
+		9E00F8311FF6DE450069ECE2 /* SideMenu */ = {
+			isa = PBXGroup;
+			children = (
+				9EF78EB31FE4408F0095E471 /* MemberSideMenuController.swift */,
+			);
+			path = SideMenu;
+			sourceTree = "<group>";
+		};
+		9E00F8321FF6DE4F0069ECE2 /* Profile */ = {
+			isa = PBXGroup;
+			children = (
+				9EFCE9101FE46B7F0058994C /* MemberMyProfileController.swift */,
+				9E00F8201FF6C6840069ECE2 /* MemberProfileMainInfoCell.swift */,
+				9E00F8211FF6C6840069ECE2 /* MemberProfileMainInfoCell.xib */,
+				9E00F82C1FF6DA5C0069ECE2 /* MemberProfileIDproofsCell.swift */,
+				9E00F82D1FF6DA5C0069ECE2 /* MemberProfileIDproofsCell.xib */,
+			);
+			path = Profile;
+			sourceTree = "<group>";
+		};
+		9E00F8331FF6DE5D0069ECE2 /* Account */ = {
+			isa = PBXGroup;
+			children = (
+				9EFCE91A1FE4ACEE0058994C /* Member MyAccountController.swift */,
+				9ED8E3381FEC994C006CEF8B /* MemberMyAccountCell.swift */,
+				9ED8E3391FEC994C006CEF8B /* MemberMyAccountCell.xib */,
+				9EFE5D881FFD9AF500072A8D /* MemberPendingApprovalsCell.swift */,
+				9EFE5D891FFD9AF500072A8D /* MemberPendingApprovalsCell.xib */,
+				9EFE5D8C1FFD9B1B00072A8D /* MemberActiveTcnCell.swift */,
+				9EFE5D8D1FFD9B1B00072A8D /* MemberActiveTcnCell.xib */,
+				9EFE5D901FFD9B3800072A8D /* MemberWithdrawnTcnCell.swift */,
+				9EFE5D911FFD9B3800072A8D /* MemberWithdrawnTcnCell.xib */,
+				9EF4E41F1FFF0CE0006076E3 /* MemberAccountPaymentDetailsController.swift */,
+				9E04BA17200002BA007E0D9B /* MemberAccountWithdrawnPaymentController.swift */,
+				9E04BA27200037DC007E0D9B /* MemberviewWithdrawnTcnController.swift */,
+				9E362513201EDAB40027058C /* MemberNomineeDetailsCell.swift */,
+				9E362514201EDAB40027058C /* MemberNomineeDetailsCell.xib */,
+			);
+			path = Account;
+			sourceTree = "<group>";
+		};
+		9E00F8341FF6DE670069ECE2 /* TCN Request & Application */ = {
+			isa = PBXGroup;
+			children = (
+				9EFCE91C1FE4AD280058994C /* MemberTcnRequestController.swift */,
+				9EFCE91E1FE4AD5A0058994C /* MemberTcnApplicationController.swift */,
+				9E1377801FEB3204002B6E8A /* MemberHeeraPaymentController.swift */,
+				9E1377821FEB3D10002B6E8A /* MemberBenefitRemittanceController.swift */,
+				9EFD1E961FEC4C0400F4F84B /* MemberNomineeDetailsController.swift */,
+				9EFD1E981FEC6E3500F4F84B /* MemberSupportingDocumentController.swift */,
+			);
+			path = "TCN Request & Application";
+			sourceTree = "<group>";
+		};
+		9E00F8351FF6DE7A0069ECE2 /* Redeem */ = {
+			isa = PBXGroup;
+			children = (
+				9EFCE9201FE4AD840058994C /* MemberRedeemDetailsController.swift */,
+				9ED8E3341FEC9202006CEF8B /* MemberRedeemCell.swift */,
+				9ED8E3351FEC9202006CEF8B /* MemberRedeemCell.xib */,
+				9E29F4421FED91AC000B1BDC /* MemberVoucherController.swift */,
+			);
+			path = Redeem;
+			sourceTree = "<group>";
+		};
+		9E00F8361FF6DE810069ECE2 /* Change Password & Contact Admin */ = {
+			isa = PBXGroup;
+			children = (
+				9EFCE9221FE4ADB30058994C /* MemberChangePasswordController.swift */,
+				9EFCE9241FE4ADD80058994C /* MemberContactAdminController.swift */,
+			);
+			path = "Change Password & Contact Admin";
+			sourceTree = "<group>";
+		};
+		9E029C9F203C18C1003D2975 /* OfficeIncharge */ = {
+			isa = PBXGroup;
+			children = (
+				9E029CAF203C37E1003D2975 /* Redeem Details */,
+				9E029CAA203C376F003D2975 /* Members & Members Account */,
+				9E029CA6203C36D7003D2975 /* Add Member */,
+				9E029CA1203C18F4003D2975 /* Dashboard */,
+				9E029CA0203C18EA003D2975 /* SideMenu */,
+			);
+			path = OfficeIncharge;
+			sourceTree = "<group>";
+		};
+		9E029CA0203C18EA003D2975 /* SideMenu */ = {
+			isa = PBXGroup;
+			children = (
+				9E029CA2203C195E003D2975 /* OISidemenuController.swift */,
+			);
+			path = SideMenu;
+			sourceTree = "<group>";
+		};
+		9E029CA1203C18F4003D2975 /* Dashboard */ = {
+			isa = PBXGroup;
+			children = (
+				9E029CA4203C198B003D2975 /* OIDashboardController.swift */,
+			);
+			path = Dashboard;
+			sourceTree = "<group>";
+		};
+		9E029CA6203C36D7003D2975 /* Add Member */ = {
+			isa = PBXGroup;
+			children = (
+				9E029CA7203C3701003D2975 /* OIAddMemberController.swift */,
+			);
+			path = "Add Member";
+			sourceTree = "<group>";
+		};
+		9E029CAA203C376F003D2975 /* Members & Members Account */ = {
+			isa = PBXGroup;
+			children = (
+				9E029CAB203C378F003D2975 /* OIMembersController.swift */,
+				9E029CAD203C37BA003D2975 /* OIMembersAccountController.swift */,
+			);
+			path = "Members & Members Account";
+			sourceTree = "<group>";
+		};
+		9E029CAF203C37E1003D2975 /* Redeem Details */ = {
+			isa = PBXGroup;
+			children = (
+				9E029CB0203C37FE003D2975 /* OIRedeemDetailsController.swift */,
+			);
+			path = "Redeem Details";
+			sourceTree = "<group>";
+		};
+		9E14A47D1FE84B3E0019B9C5 /* common */ = {
+			isa = PBXGroup;
+			children = (
+				9E14A4841FE896F50019B9C5 /* DropDownMenuController.swift */,
+				9EFCE9181FE496D90058994C /* MemberCollectionCellDashboard.swift */,
+				9E13777C1FEAEB9D002B6E8A /* SecondViewController.swift */,
+				9E29F43E1FED8AB2000B1BDC /* Barcode.swift */,
+				9EF6DFC21FFC1DB30017B770 /* CheckAccess.swift */,
+				9EF6DFC41FFC20AA0017B770 /* BasicProperties.swift */,
+				9E04BA23200036DE007E0D9B /* TwoLabelTableViewCell.swift */,
+				9E04BA24200036DE007E0D9B /* TwoLabelTableViewCell.xib */,
+				9E04BA2920005722007E0D9B /* ImageLabelTableViewCell.swift */,
+				9E04BA2A20005722007E0D9B /* ImageLabelTableViewCell.xib */,
+				9E04BA2D20005D18007E0D9B /* SingleButtonCell.swift */,
+				9E04BA2E20005D18007E0D9B /* SingleButtonCell.xib */,
+				9E04BA312000624E007E0D9B /* SingleLabelCell.swift */,
+				9E04BA322000624F007E0D9B /* SingleLabelCell.xib */,
+				9E6BFD072012FA4500262DB2 /* GlobalValues.swift */,
+				9E6BFD092013124300262DB2 /* ActivityIndicator.swift */,
+				9EF94C5E2022D575002CF7E9 /* TwoImagesViewCell.swift */,
+				9EF94C5F2022D575002CF7E9 /* TwoImagesViewCell.xib */,
+			);
+			path = common;
+			sourceTree = "<group>";
+		};
 		9E2AAF051FE346F90082405B = {
 			isa = PBXGroup;
 			children = (
@@ -83,6 +393,8 @@
 				9E2AAF281FE346F90082405B /* HeeraERPTests */,
 				9E2AAF331FE346FA0082405B /* HeeraERPUITests */,
 				9E2AAF0F1FE346F90082405B /* Products */,
+				E9C6F81DD6F4D4BC067D29CB /* Pods */,
+				B18CB6178A895137BC2CFFF7 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -99,12 +411,20 @@
 		9E2AAF101FE346F90082405B /* HeeraERP */ = {
 			isa = PBXGroup;
 			children = (
+				9E14A47D1FE84B3E0019B9C5 /* common */,
+				9EF78EAC1FE43EC70095E471 /* library file */,
+				9E029C9F203C18C1003D2975 /* OfficeIncharge */,
+				9EE59BD11FE359FF00886870 /* Member */,
 				9E2AAF111FE346F90082405B /* AppDelegate.swift */,
 				9E2AAF131FE346F90082405B /* ViewController.swift */,
+				9EF94C6220232A1F002CF7E9 /* ForgotPassword.swift */,
+				9E1DEA91202469F600C74534 /* ForgotPassword_OTPChecking.swift */,
+				9E1DEA932024739100C74534 /* ForgotPasswordReset.swift */,
 				9E2AAF151FE346F90082405B /* Main.storyboard */,
 				9E2AAF1B1FE346F90082405B /* Assets.xcassets */,
 				9E2AAF1D1FE346F90082405B /* LaunchScreen.storyboard */,
 				9E2AAF201FE346F90082405B /* Info.plist */,
+				9EFCE9141FE481F20058994C /* GoogleService-Info.plist */,
 				9E2AAF181FE346F90082405B /* HeeraERP.xcdatamodeld */,
 			);
 			path = HeeraERP;
@@ -128,6 +448,58 @@
 			path = HeeraERPUITests;
 			sourceTree = "<group>";
 		};
+		9EE59BD11FE359FF00886870 /* Member */ = {
+			isa = PBXGroup;
+			children = (
+				9E00F8361FF6DE810069ECE2 /* Change Password & Contact Admin */,
+				9E00F8351FF6DE7A0069ECE2 /* Redeem */,
+				9E00F8341FF6DE670069ECE2 /* TCN Request & Application */,
+				9E00F8331FF6DE5D0069ECE2 /* Account */,
+				9E00F8321FF6DE4F0069ECE2 /* Profile */,
+				9E00F8311FF6DE450069ECE2 /* SideMenu */,
+				9E00F8301FF6DE390069ECE2 /* Dashboard */,
+			);
+			path = Member;
+			sourceTree = "<group>";
+		};
+		9EF78EAC1FE43EC70095E471 /* library file */ = {
+			isa = PBXGroup;
+			children = (
+				9EFE5D861FFD933700072A8D /* FZAccordionTableView.h */,
+				9EFE5D851FFD933700072A8D /* FZAccordionTableView.m */,
+				9EF78EAE1FE43EFC0095E471 /* SWRevealViewController.h */,
+				9EF78EAF1FE43EFC0095E471 /* SWRevealViewController.m */,
+				9EF78EAD1FE43EFB0095E471 /* HeeraERP-Bridging-Header.h */,
+			);
+			name = "library file";
+			path = "New Group";
+			sourceTree = "<group>";
+		};
+		B18CB6178A895137BC2CFFF7 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				9E5DC00E1FFAC17B006328C0 /* Photos.framework */,
+				9E29F4401FED8BF0000B1BDC /* CoreImage.framework */,
+				782E82C65ED12BF4930497AF /* Pods_HeeraERP.framework */,
+				9F15A5BBF79E1F0BCFDDBDB6 /* Pods_HeeraERPTests.framework */,
+				0D554C5D49F0AC2273DDE502 /* Pods_HeeraERPUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E9C6F81DD6F4D4BC067D29CB /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				D0229111CE39EEA31E1E2636 /* Pods-HeeraERP.debug.xcconfig */,
+				8A053C6529445945C070F6A2 /* Pods-HeeraERP.release.xcconfig */,
+				1E2857CE7A98F1118FF98A45 /* Pods-HeeraERPTests.debug.xcconfig */,
+				E82C9BE9D555A6DC2BC62FCD /* Pods-HeeraERPTests.release.xcconfig */,
+				B06FB5983C4D6902160FC0DF /* Pods-HeeraERPUITests.debug.xcconfig */,
+				B4F0F911FF0191DD0EC658CF /* Pods-HeeraERPUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -135,9 +507,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 9E2AAF391FE346FA0082405B /* Build configuration list for PBXNativeTarget "HeeraERP" */;
 			buildPhases = (
+				2B975BBEAA1F72697A4AA2AD /* [CP] Check Pods Manifest.lock */,
 				9E2AAF0A1FE346F90082405B /* Sources */,
 				9E2AAF0B1FE346F90082405B /* Frameworks */,
 				9E2AAF0C1FE346F90082405B /* Resources */,
+				B7945176D1DDE5D6A75E7AE2 /* [CP] Embed Pods Frameworks */,
+				64EDEAB226A0A9474EF85449 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -152,9 +527,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 9E2AAF3C1FE346FA0082405B /* Build configuration list for PBXNativeTarget "HeeraERPTests" */;
 			buildPhases = (
+				B196DFA12037F7C4198CDF55 /* [CP] Check Pods Manifest.lock */,
 				9E2AAF211FE346F90082405B /* Sources */,
 				9E2AAF221FE346F90082405B /* Frameworks */,
 				9E2AAF231FE346F90082405B /* Resources */,
+				8ED477F77B2C8C202576664C /* [CP] Embed Pods Frameworks */,
+				77F15EF943F70F1D80AFC6E3 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -170,9 +548,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 9E2AAF3F1FE346FA0082405B /* Build configuration list for PBXNativeTarget "HeeraERPUITests" */;
 			buildPhases = (
+				1DB5A02B244536C1330BFF87 /* [CP] Check Pods Manifest.lock */,
 				9E2AAF2C1FE346FA0082405B /* Sources */,
 				9E2AAF2D1FE346FA0082405B /* Frameworks */,
 				9E2AAF2E1FE346FA0082405B /* Resources */,
+				84AECB2203050059D879F177 /* [CP] Embed Pods Frameworks */,
+				AEA7F399CF126EFB073B21F4 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -196,6 +577,7 @@
 				TargetAttributes = {
 					9E2AAF0D1FE346F90082405B = {
 						CreatedOnToolsVersion = 9.2;
+						LastSwiftMigration = 0920;
 						ProvisioningStyle = Automatic;
 					};
 					9E2AAF241FE346F90082405B = {
@@ -235,9 +617,23 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9EFE5D8B1FFD9AF500072A8D /* MemberPendingApprovalsCell.xib in Resources */,
+				9E00F82F1FF6DA5C0069ECE2 /* MemberProfileIDproofsCell.xib in Resources */,
 				9E2AAF1F1FE346F90082405B /* LaunchScreen.storyboard in Resources */,
 				9E2AAF1C1FE346F90082405B /* Assets.xcassets in Resources */,
+				9ED8E33B1FEC994C006CEF8B /* MemberMyAccountCell.xib in Resources */,
+				9EFCE9151FE481F30058994C /* GoogleService-Info.plist in Resources */,
+				9E00F8231FF6C6840069ECE2 /* MemberProfileMainInfoCell.xib in Resources */,
+				9E04BA2C20005722007E0D9B /* ImageLabelTableViewCell.xib in Resources */,
+				9EFE5D931FFD9B3800072A8D /* MemberWithdrawnTcnCell.xib in Resources */,
+				9EFE5D8F1FFD9B1B00072A8D /* MemberActiveTcnCell.xib in Resources */,
+				9ED8E3371FEC9202006CEF8B /* MemberRedeemCell.xib in Resources */,
+				9E04BA342000624F007E0D9B /* SingleLabelCell.xib in Resources */,
+				9EF94C612022D575002CF7E9 /* TwoImagesViewCell.xib in Resources */,
 				9E2AAF171FE346F90082405B /* Main.storyboard in Resources */,
+				9E04BA26200036DE007E0D9B /* TwoLabelTableViewCell.xib in Resources */,
+				9E362516201EDAB40027058C /* MemberNomineeDetailsCell.xib in Resources */,
+				9E04BA3020005D18007E0D9B /* SingleButtonCell.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -257,14 +653,215 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		1DB5A02B244536C1330BFF87 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-HeeraERPUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		2B975BBEAA1F72697A4AA2AD /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-HeeraERP-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		64EDEAB226A0A9474EF85449 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-HeeraERP/Pods-HeeraERP-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		77F15EF943F70F1D80AFC6E3 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-HeeraERPTests/Pods-HeeraERPTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		84AECB2203050059D879F177 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-HeeraERPUITests/Pods-HeeraERPUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8ED477F77B2C8C202576664C /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-HeeraERPTests/Pods-HeeraERPTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		AEA7F399CF126EFB073B21F4 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-HeeraERPUITests/Pods-HeeraERPUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B196DFA12037F7C4198CDF55 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-HeeraERPTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B7945176D1DDE5D6A75E7AE2 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-HeeraERP/Pods-HeeraERP-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/GoogleToolboxForMac/GoogleToolboxForMac.framework",
+				"${BUILT_PRODUCTS_DIR}/nanopb/nanopb.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleToolboxForMac.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/nanopb.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-HeeraERP/Pods-HeeraERP-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		9E2AAF0A1FE346F90082405B /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9E13777D1FEAEB9D002B6E8A /* SecondViewController.swift in Sources */,
+				9E1DEA92202469F700C74534 /* ForgotPassword_OTPChecking.swift in Sources */,
+				9ED8E3361FEC9202006CEF8B /* MemberRedeemCell.swift in Sources */,
+				9E04BA2B20005722007E0D9B /* ImageLabelTableViewCell.swift in Sources */,
+				9E29F4431FED91AC000B1BDC /* MemberVoucherController.swift in Sources */,
+				9E029CA3203C195E003D2975 /* OISidemenuController.swift in Sources */,
+				9E00F82E1FF6DA5C0069ECE2 /* MemberProfileIDproofsCell.swift in Sources */,
+				9EFCE9251FE4ADD80058994C /* MemberContactAdminController.swift in Sources */,
 				9E2AAF141FE346F90082405B /* ViewController.swift in Sources */,
+				9E04BA332000624F007E0D9B /* SingleLabelCell.swift in Sources */,
+				9E029CA5203C198B003D2975 /* OIDashboardController.swift in Sources */,
+				9E1377831FEB3D10002B6E8A /* MemberBenefitRemittanceController.swift in Sources */,
+				9E04BA18200002BA007E0D9B /* MemberAccountWithdrawnPaymentController.swift in Sources */,
 				9E2AAF1A1FE346F90082405B /* HeeraERP.xcdatamodeld in Sources */,
+				9EFCE9231FE4ADB30058994C /* MemberChangePasswordController.swift in Sources */,
+				9E29F43F1FED8AB2000B1BDC /* Barcode.swift in Sources */,
+				9EFCE91D1FE4AD280058994C /* MemberTcnRequestController.swift in Sources */,
+				9EF94C602022D575002CF7E9 /* TwoImagesViewCell.swift in Sources */,
+				9EFCE9191FE496D90058994C /* MemberCollectionCellDashboard.swift in Sources */,
+				9E1DEA942024739100C74534 /* ForgotPasswordReset.swift in Sources */,
 				9E2AAF121FE346F90082405B /* AppDelegate.swift in Sources */,
+				9E029CAC203C378F003D2975 /* OIMembersController.swift in Sources */,
+				9E04BA28200037DC007E0D9B /* MemberviewWithdrawnTcnController.swift in Sources */,
+				9EF78EB41FE4408F0095E471 /* MemberSideMenuController.swift in Sources */,
+				9E6BFD0A2013124300262DB2 /* ActivityIndicator.swift in Sources */,
+				9E6BFD082012FA4500262DB2 /* GlobalValues.swift in Sources */,
+				9EFE5D921FFD9B3800072A8D /* MemberWithdrawnTcnCell.swift in Sources */,
+				9EFE5D8E1FFD9B1B00072A8D /* MemberActiveTcnCell.swift in Sources */,
+				9EFCE91F1FE4AD5A0058994C /* MemberTcnApplicationController.swift in Sources */,
+				9EFCE9111FE46B7F0058994C /* MemberMyProfileController.swift in Sources */,
+				9EFE5D8A1FFD9AF500072A8D /* MemberPendingApprovalsCell.swift in Sources */,
+				9E04BA25200036DE007E0D9B /* TwoLabelTableViewCell.swift in Sources */,
+				9EFCE91B1FE4ACEE0058994C /* Member MyAccountController.swift in Sources */,
+				9E1377811FEB3204002B6E8A /* MemberHeeraPaymentController.swift in Sources */,
+				9E362515201EDAB40027058C /* MemberNomineeDetailsCell.swift in Sources */,
+				9EFD1E991FEC6E3500F4F84B /* MemberSupportingDocumentController.swift in Sources */,
+				9E029CA8203C3701003D2975 /* OIAddMemberController.swift in Sources */,
+				9EF6DFC31FFC1DB30017B770 /* CheckAccess.swift in Sources */,
+				9E029CB1203C37FE003D2975 /* OIRedeemDetailsController.swift in Sources */,
+				9EF4E4201FFF0CE0006076E3 /* MemberAccountPaymentDetailsController.swift in Sources */,
+				9EF78EB01FE43EFC0095E471 /* SWRevealViewController.m in Sources */,
+				9EFD1E971FEC4C0400F4F84B /* MemberNomineeDetailsController.swift in Sources */,
+				9E04BA2F20005D18007E0D9B /* SingleButtonCell.swift in Sources */,
+				9E14A4851FE896F50019B9C5 /* DropDownMenuController.swift in Sources */,
+				9E00F8221FF6C6840069ECE2 /* MemberProfileMainInfoCell.swift in Sources */,
+				9EFE5D871FFD933700072A8D /* FZAccordionTableView.m in Sources */,
+				9EFCE9211FE4AD840058994C /* MemberRedeemDetailsController.swift in Sources */,
+				9EF78EB21FE440730095E471 /* MemberDashboardController.swift in Sources */,
+				9E029CAE203C37BA003D2975 /* OIMembersAccountController.swift in Sources */,
+				9ED8E33A1FEC994C006CEF8B /* MemberMyAccountCell.swift in Sources */,
+				9EF6DFC51FFC20AA0017B770 /* BasicProperties.swift in Sources */,
+				9EF94C6320232A1F002CF7E9 /* ForgotPassword.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -428,38 +1025,51 @@
 		};
 		9E2AAF3A1FE346FA0082405B /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D0229111CE39EEA31E1E2636 /* Pods-HeeraERP.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
+				DEBUG_ACTIVITY_MODE = "";
+				"DEBUG_ACTIVITY_MODE[arch=*]" = Default;
 				DEVELOPMENT_TEAM = 688X9LF3Y9;
+				Heera = "";
 				INFOPLIST_FILE = HeeraERP/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = HeeraERP.HeeraERP;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "HeeraERP/New Group/HeeraERP-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
 		9E2AAF3B1FE346FA0082405B /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8A053C6529445945C070F6A2 /* Pods-HeeraERP.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
+				DEBUG_ACTIVITY_MODE = "";
 				DEVELOPMENT_TEAM = 688X9LF3Y9;
+				Heera = "";
 				INFOPLIST_FILE = HeeraERP/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = HeeraERP.HeeraERP;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "HeeraERP/New Group/HeeraERP-Bridging-Header.h";
 				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
 		9E2AAF3D1FE346FA0082405B /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1E2857CE7A98F1118FF98A45 /* Pods-HeeraERPTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -477,6 +1087,7 @@
 		};
 		9E2AAF3E1FE346FA0082405B /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E82C9BE9D555A6DC2BC62FCD /* Pods-HeeraERPTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -494,6 +1105,7 @@
 		};
 		9E2AAF401FE346FA0082405B /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B06FB5983C4D6902160FC0DF /* Pods-HeeraERPUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -510,6 +1122,7 @@
 		};
 		9E2AAF411FE346FA0082405B /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B4F0F911FF0191DD0EC658CF /* Pods-HeeraERPUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;

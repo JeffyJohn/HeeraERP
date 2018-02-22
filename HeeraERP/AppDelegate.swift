@@ -8,6 +8,7 @@
 
 import UIKit
 import CoreData
+import Firebase
 
 @UIApplicationMain
 class AppDelegate: UIResponder, UIApplicationDelegate {
@@ -17,6 +18,22 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplicationLaunchOptionsKey: Any]?) -> Bool {
         // Override point for customization after application launch.
+        
+        
+        //**** setting status bar color as #7B1FA2 and text color as white
+        //**** Also set View controller-based status bar appearance as NO  and Status bar is initially hidden as YES in info.plist for status tint color as white
+        UIApplication.shared.statusBarStyle = .lightContent
+        UINavigationBar.appearance().clipsToBounds = true
+        let statusBar: UIView = UIApplication.shared.value(forKey: "statusBar") as! UIView
+        statusBar.backgroundColor = UIColor(red:0.95, green:0.61, blue:0.07, alpha:1.0)
+        
+        //**** setting nav bar color as #9C27B0 and text color as white
+        UINavigationBar.appearance().barTintColor = UIColor(red:0.96, green:0.67, blue:0.21, alpha:1.0)
+        UINavigationBar.appearance().tintColor = UIColor(red:1.00, green:1.00, blue:1.00, alpha:1.0)
+        UINavigationBar.appearance().titleTextAttributes = [NSAttributedStringKey.foregroundColor : UIColor(red:1.00, green:1.00, blue:1.00, alpha:1.0)]
+        
+        //**** set up Firebase
+        FirebaseApp.configure()
         return true
     }
 
